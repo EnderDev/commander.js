@@ -833,6 +833,8 @@ export class Command {
    */
   helpOption(flags?: string | boolean, description?: string): this;
 
+  helpAction(fn: Function): this;
+
   /**
    * Output help information and exit.
    *
